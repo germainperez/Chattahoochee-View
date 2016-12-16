@@ -8,7 +8,7 @@ A map shows the position of the panorama and a clickable route in red. Clicking 
 
 A 360° video shows a high-definition timelapse sequence of the panoramas through the route.
 
-High-speed internet connection recommended
+High-speed internet connection recommended.
 
 The source code in this repository only links to 10 images for demonstration purposes. More imagery is available at the live link.
 
@@ -36,9 +36,9 @@ Live at: http://germainperez.nfshost.com/weblab/ChattahoocheeView/
 
 ## Copyright
 
-The MIT License (MIT).
+The MIT License (MIT)
 
-Copyright © 2016 Germain Perez.
+Copyright © 2016 Germain Perez
 
 Images and video may not be copied or reproduced.
 
