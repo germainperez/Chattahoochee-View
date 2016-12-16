@@ -10,7 +10,7 @@ A 360° video shows a high-definition timelapse sequence of the panoramas throug
 
 High-speed internet connection recommended
 
-* The source code in this repository only links to 10 images for demonstration purposes. More imagery is available at the live link.
+The source code in this repository only links to 10 images for demonstration purposes. More imagery is available at the live link.
 
 ## Credits
 
@@ -29,7 +29,7 @@ Live at: http://germainperez.nfshost.com/weblab/ChattahoocheeView/
 
 ## Copyright
 
-The MIT License (MIT) 
+The MIT License (MIT).
 Copyright © 2016 Germain Perez.
 Images and video may not be copied or reproduced.
 Map data © 2016 Google
