@@ -1,0 +1,124 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #339966;
+}
+
+#header-bar-top {
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    height: 5%;
+    width: 100%;
+}
+
+#header-bar-top p {
+    margin: 0;
+    padding-left: 1%;
+    padding-top: 0.75%;
+    float:left;
+}
+
+#intro {
+    float: right;
+    padding-right: 1%;
+    padding-top: 0.75%;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#header-bar-bottom {
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    height: 5%;
+    width: 50%;
+    float: left;
+}
+
+#header-bar-bottom p {
+    margin: 0;
+    padding-left: 2%;
+    padding-top: 1.5%;
+}
+
+#header-bar-bottom-right {
+    border-left: 1px solid white;
+    margin-left: -1px;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    height: 5%;
+    width: 50%;
+    float: right;
+}
+
+#header-bar-bottom-right p {
+    margin: 0;
+    padding-left: 2%;
+    padding-top: 1.5%;
+}
+
+#pano {
+    margin: auto;
+    height: 55%;
+    width: 100%;
+}
+
+#map {
+    margin: auto;
+    float: left;
+    height: 35%;
+    width: 50%;
+}
+
+#video {
+    float: right;
+    height: 35%;
+    width: 50%;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #339966;;
+    margin: 8% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #fff;
+    width: 80%; /* Could be more or less, depending on screen size */
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.modal-content p {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+
+.close {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

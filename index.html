@@ -1,0 +1,74 @@
+<!--
+Author: Germain Perez
+Chattahoochee View is a web application that permits 360&deg; viewing of panorama images from points along the Chattahoochee River.
+Distributed under the MIT License.
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header-bar-top">
+        <p>Chattahoochee View</p>
+        <div id="intro">Intro & help</div>
+    </div>
+
+    <div id="pano"></div>
+
+    <div id="header-bar-bottom">
+        <p>Map | Click on route to update view</p>
+    </div>
+    <div id="header-bar-bottom-right">
+        <p>Route 360&deg; timelapse video</p>
+    </div>
+
+    <div id="map"></div>
+    <div id="video">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/F_V-OEqDGSs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Chattahoochee View v1.0</h3>
+        <p>
+        Chattahoochee View is a web application that permits 360&deg; viewing of panorama images from points along the Chattahoochee River.</p>
+        <p>
+        A map shows the position of the panorama and a clickable route in red. Clicking on the red route will change the position of the panorama. The map also shows points of interest (landings) with relevant information.</p>
+        <p>
+        A 360&deg; video shows a high-definition timelapse sequence of the panoramas through the route.</p>
+
+        <p><i>High-speed internet connection recommended</i></p>
+        <h3>Dependencies</h3>
+        <p>
+        Google Maps JavaScript API<br />
+        Google Fonts<br />
+        YouTube 360&deg; video<br />
+        Rico Theta S & utility software<br />
+        Adobe Premiere<br />
+        </p>
+        <p>. . .</p>
+        <p>
+        Contact: germain [at] gatech.edu<br />
+        v1.0 publish date: 12.15.2016<br />
+        Source code: [github link]<br />
+        Map data &copy; 2016 Google<br />
+        Images and video may not be copied or reproduced</p>
+        <p>
+        The MIT License (MIT) <br />
+        Copyright &copy; 2016 Germain Perez</p>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="pano.js"></script>
+    <script defer async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsrzsLwc80vnSXgkV9SkYX5CDGf_U6XVs&callback=initialize"></script>
+
+</body>
+
+</html>
