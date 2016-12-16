@@ -30,6 +30,6 @@ Live at: http://germainperez.nfshost.com/weblab/ChattahoocheeView/
 ## Copyright
 
 The MIT License (MIT) 
-Copyright © 2016 Germain Perez
-Images and video may not be copied or reproduced
+Copyright © 2016 Germain Perez.
+Images and video may not be copied or reproduced.
 Map data © 2016 Google
